@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: install-app.sh fills in the @CC_*@ values. -->
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key><string>CloudCLI</string>
+  <key>CFBundleDisplayName</key><string>CloudCLI</string>
+  <key>CFBundleIdentifier</key><string>net.vinas94.cloudcli</string>
+  <key>CFBundleExecutable</key><string>CloudCLI</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>CCProject</key><string>@CC_PROJECT@</string>
+  <key>CCConfig</key><string>@CC_CONFIG@</string>
+  <key>CCPort</key><integer>@CC_PORT@</integer>
+</dict>
+</plist>
